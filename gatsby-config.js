@@ -39,7 +39,7 @@ module.exports = {
           },
           {
             name: 'Linkedin',
-            url: 'https://www.linkedin.com/amirhosein-shirani',
+            url: 'https://www.linkedin.com/in/amirhosein-shirani/',
           }
         ],
       },
