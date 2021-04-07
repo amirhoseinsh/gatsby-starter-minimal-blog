@@ -35,10 +35,6 @@ module.exports = {
             url: `https://www.instagram.com/amirhoseinshirani/`,
           },
           {
-            name: 'Github',
-            url: 'https://www.github.com/amirhoseinsh',
-          },
-          {
             name: 'Linkedin',
             url: 'https://www.linkedin.com/amirhosein-shirani',
           }
@@ -57,7 +53,7 @@ module.exports = {
       options: {
         name: `amirhosein shirani blog`,
         short_name: `amirhosein shirani blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        description: `Scripts which has been written by Amirhosein Shirani, Iranian Entrepreneur and Executive.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
