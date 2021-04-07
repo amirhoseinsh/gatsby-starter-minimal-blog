@@ -9,6 +9,9 @@ module.exports = {
     siteTitle: `Amirhosein Shirani`,
     siteTitleAlt: `Shirani Blog`,
     siteUrl: `https://shirani.me`,
+    siteHeadline: `Blog - Shirani`,
+    author: `Amirhosein Shirani`,
+
   },
   plugins: [
     {
