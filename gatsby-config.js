@@ -37,6 +37,10 @@ module.exports = {
           {
             name: 'Github',
             url: 'https://www.github.com/amirhoseinsh',
+          },
+          {
+            name: 'Linkedin',
+            url: 'https://www.linkedin.com/amirhosein-shirani',
           }
         ],
       },
