@@ -25,13 +25,13 @@ const sizePresets = {
 function SpotifyPlayer({ uri, view, theme, size }) {
   return (
     <iframe
-      title="Spotify"
-      className="SpotifyPlayer"
-      src={`https://embed.spotify.com/?uri=${uri}&view=${view}&theme=${theme}`}
-      width={sizePresets[size].width}
-      height={sizePresets[size].height}
-      frameBorder="0"
-      allowtransparency="true"
+        title="Spotify"
+        className="SpotifyPlayer"
+        src={`https://embed.spotify.com/?uri=${uri}&view=${view}&theme=${theme}`}
+        width={sizePresets[size].width}
+        height={sizePresets[size].height}
+        frameBorder="0"
+        allowTransparency="true"
     />
   )
 }

@@ -4,5 +4,6 @@ import "@fontsource/architects-daughter"
 import "@fontsource/changa"
 
 export default {
-    ...theme
+    ...theme,
+    initialColorModeName: `dark`,
 }
