@@ -18,14 +18,14 @@ export default {
         muted: `#f1f1f1`,
         modes: {
             light: {
-                text: `#424242`,
+                text: `#535353`,
                 primary: `#0077c2`,
                 secondary: `#6d6d6d`,
                 toggleIcon: tailwind.colors.gray[8],
-                heading: tailwind.colors.black,
-                divide: tailwind.colors.gray[4],
+                heading: `#1b1b1b`,
+                divide: `#6d6d6d`,
                 background: `#efefef`,
-                muted: `#1b1b1b`,
+                muted: `#424242`,
             },
         },
     },
