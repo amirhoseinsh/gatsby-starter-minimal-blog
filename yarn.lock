@@ -2042,7 +2042,7 @@
   "resolved" "https://registry.npmjs.org/@theme-ui/preset-tosh/-/preset-tosh-0.3.5.tgz"
   "version" "0.3.5"
 
-"@theme-ui/presets@^0.3.5":
+"@theme-ui/presets@^0.3.5", "@theme-ui/presets@latest":
   "integrity" "sha512-o9Mwlshm7gs31Fy4K8B6RyHV+0BRbMH9PiMUEpJylY8E8LRStQjP8tEltrTXPP0xjdQzZPqhCVG5TgopCz5ofg=="
   "resolved" "https://registry.npmjs.org/@theme-ui/presets/-/presets-0.3.5.tgz"
   "version" "0.3.5"
