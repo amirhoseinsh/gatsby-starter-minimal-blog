@@ -12,7 +12,7 @@ type Props = {
 export default function MinimalBlogCoreHomepage({ ...props }: Props) {
   const {
     data: { allPost },
-  } = props
+  } = props;
 
   return <Homepage posts={allPost.nodes} {...props} />
 }

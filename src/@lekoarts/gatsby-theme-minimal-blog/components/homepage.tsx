@@ -31,9 +31,9 @@ type PostsProps = {
 }
 
 const Homepage = ({ posts }: PostsProps) => {
-  const { basePath, blogPath } = useMinimalBlogConfig()
-  const { siteTitle } = useSiteMetadata()
-
+  const { basePath, blogPath } = useMinimalBlogConfig();
+  const { siteTitle } = useSiteMetadata();
+  // console.log(posts);
   return (
     <Layout>
       <h1 sx={visuallyHidden}>{siteTitle}</h1>
@@ -44,11 +44,11 @@ const Homepage = ({ posts }: PostsProps) => {
         <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Read all posts</Link>
       </Title>
       <Listing posts={posts} showTags={false} />
-      <List sx={{ variant: `section_bottom` }}>
+      <List sx={{ variant: `links.secondary` }}>
         <Bottom />
       </List>
     </Layout>
   )
-}
+};
 
 export default Homepage

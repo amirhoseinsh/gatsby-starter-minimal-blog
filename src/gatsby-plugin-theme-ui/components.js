@@ -22,6 +22,6 @@ const components = {
         return <pre {...preProps} />
     },
     wrapper: ({ children }) => <>{children}</>,
-}
+};
 
 export default components

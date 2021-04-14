@@ -47,6 +47,7 @@ module.exports = {
                         url: 'https://www.linkedin.com/in/amirhosein-shirani/',
                     }
                 ],
+                showCopyButton: true
             },
         },
         {
