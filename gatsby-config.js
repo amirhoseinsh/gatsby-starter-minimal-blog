@@ -16,6 +16,7 @@ module.exports = {
         author: `Amirhosein Shirani`,
         siteDescription: `Scripts which has been written by Amirhosein Shirani, Iranian Entrepreneur and Executive.`,
         siteLanguage: `en`,
+        siteImage: `/banner.jpg`,
     },
     plugins: [
         {
