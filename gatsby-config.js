@@ -83,6 +83,9 @@ module.exports = {
             },
         },
         `gatsby-plugin-offline`,
+        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-typescript`,
+        `gatsby-plugin-catch-links`,
         `gatsby-plugin-gatsby-cloud`,
         `gatsby-plugin-netlify`,
         shouldAnalyseBundle && {
