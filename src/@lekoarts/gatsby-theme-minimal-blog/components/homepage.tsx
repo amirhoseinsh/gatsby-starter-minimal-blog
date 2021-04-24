@@ -44,7 +44,7 @@ const Homepage = ({ posts }: PostsProps) => {
         <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Read all essays</Link>
       </Title>
       <Listing posts={posts} showTags={false} />
-      <List sx={{ variant: `links.secondary` }}>
+      <List sx={{ variant: `links.secondary`}}>
         <Bottom />
       </List>
     </Layout>
