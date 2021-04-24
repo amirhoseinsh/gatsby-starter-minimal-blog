@@ -25,14 +25,14 @@ type PostsProps = {
 }
 
 const Blog = ({ posts }: PostsProps) => {
-  const { tagsPath, basePath } = useMinimalBlogConfig()
+  const { tagsPath, basePath } = useMinimalBlogConfig();
 
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="Essays" />
       <Flex sx={{ alignItems: `center`, justifyContent: `space-between`, flexFlow: `wrap` }}>
         <Heading as="h1" variant="styles.h1" sx={{ marginY: 2 }}>
-          Blog
+          Essays
         </Heading>
         <TLink
           as={Link}

@@ -41,9 +41,9 @@ const useMinimalBlogConfig = () => {
         showCopyButton
       }
     }
-  `)
+  `);
 
   return data.minimalBlogConfig
-}
+};
 
 export default useMinimalBlogConfig

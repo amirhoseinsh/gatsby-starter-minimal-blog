@@ -12,7 +12,7 @@ const Header = () => {
   const [colorMode, setColorMode] = useColorMode()
   const isDark = colorMode === `dark`
   const toggleColorMode = (e: any) => {
-    e.preventDefault()
+    e.preventDefault();
     setColorMode(isDark ? `light` : `dark`)
   }
 
@@ -40,6 +40,6 @@ const Header = () => {
       </div>
     </header>
   )
-}
+};
 
 export default Header

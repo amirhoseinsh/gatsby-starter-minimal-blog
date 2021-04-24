@@ -15,19 +15,19 @@ import Hero from "../texts/hero"
 import Bottom from "../texts/bottom"
 
 type PostsProps = {
-  posts: {
-    slug: string
-    title: string
-    date: string
-    excerpt: string
-    description: string
-    timeToRead?: number
-    tags?: {
-      name: string
-      slug: string
+    posts: {
+        slug: string
+        title: string
+        date: string
+        excerpt: string
+        description: string
+        timeToRead?: number
+        tags?: {
+            name: string
+            slug: string
+        }[]
     }[]
-  }[]
-  [key: string]: any
+    [key: string]: any
 }
 
 const Homepage = ({ posts }: PostsProps) => {
@@ -40,8 +40,8 @@ const Homepage = ({ posts }: PostsProps) => {
       <section sx={{ mb: [5, 6, 7], p: { fontSize: [1, 2, 3], mt: 2 }, variant: `section_hero` }}>
         <Hero />
       </section>
-      <Title text="Latest Posts">
-        <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Read all posts</Link>
+      <Title text="Latest Essays">
+        <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Read all essays</Link>
       </Title>
       <Listing posts={posts} showTags={false} />
       <List sx={{ variant: `links.secondary` }}>

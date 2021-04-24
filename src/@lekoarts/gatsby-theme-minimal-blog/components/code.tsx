@@ -41,9 +41,9 @@ const calculateLinesToHighlight = (meta: string) => {
   }
   const lineNumbers = RE.exec(meta)![1]
     .split(`,`)
-    .map((v) => v.split(`-`).map((x) => parseInt(x, 10)))
+    .map((v) => v.split(`-`).map((x) => parseInt(x, 10)));
   return (index: number) => {
-    const lineNumber = index + 1
+    const lineNumber = index + 1;
     const inRange = lineNumbers.some(([start, end]) =>
       end ? lineNumber >= start && lineNumber <= end : lineNumber === start
     )
@@ -52,8 +52,8 @@ const calculateLinesToHighlight = (meta: string) => {
 }
 
 const LazyLiveProvider = loadable(async () => {
-  const Module = await import(`react-live`)
-  const { LiveProvider, LiveEditor, LiveError, LivePreview } = Module
+  const Module = await import(`react-live`);
+  const { LiveProvider, LiveEditor, LiveError, LivePreview } = Module;
   return (props: any) => (
     <LiveProvider {...props}>
       {props.showCopyButton && <Copy content={props.code} />}
