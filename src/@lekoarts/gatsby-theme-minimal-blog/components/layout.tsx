@@ -43,13 +43,13 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
     />
     <SEO />
     <SkipNavLink>Skip to content</SkipNavLink>
-    <Container>
+    <Box sx={{ p: 2, m: [1, , 3, 6] }}>
       <Header />
       <Box id="skip-nav" sx={{ ...CodeStyles }} className={className}>
         {children}
       </Box>
       <Footer />
-    </Container>
+    </Box>
   </React.Fragment>
 )
 

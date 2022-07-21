@@ -17,7 +17,9 @@
   },
   "dependencies": {
     "@fontsource/architects-daughter": "^4.2.2",
+    "@fontsource/blinker": "^4.5.7",
     "@fontsource/changa": "^4.2.2",
+    "@fontsource/lato": "^4.5.8",
     "@lekoarts/gatsby-theme-minimal-blog": "^2.7.3",
     "@theme-ui/presets": "latest",
     "chart.js": "^3.1.0",

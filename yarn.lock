@@ -1112,10 +1112,20 @@
   "resolved" "https://registry.npmjs.org/@fontsource/architects-daughter/-/architects-daughter-4.2.2.tgz"
   "version" "4.2.2"
 
+"@fontsource/blinker@^4.5.7":
+  "integrity" "sha512-J2u5e8EML5z8H1EcMYOp2GwkYJao9dVljqseGON395TK4U5bLGcraEpEJLMimwgEEml1MD69SycCuuSjyEgaOQ=="
+  "resolved" "https://registry.npmjs.org/@fontsource/blinker/-/blinker-4.5.7.tgz"
+  "version" "4.5.7"
+
 "@fontsource/changa@^4.2.2":
   "integrity" "sha512-QOvmNIjP1Oldt52Mx2bFSxlYLW+U2U2MsaDoIb/yFdiKWXMkoeRdo8DylydW/mg0yddwekKHJD6Dvw5N2pmtMQ=="
   "resolved" "https://registry.npmjs.org/@fontsource/changa/-/changa-4.2.2.tgz"
   "version" "4.2.2"
+
+"@fontsource/lato@^4.5.8":
+  "integrity" "sha512-IoSvhhzHsSzJu5XEOmDqzqcSmtfcJ788nz2TDgGXac076DApUsYIPHHBd0dh9guMBIVuHZ8Y2dlXNHFl4bCyLA=="
+  "resolved" "https://registry.npmjs.org/@fontsource/lato/-/lato-4.5.8.tgz"
+  "version" "4.5.8"
 
 "@graphql-tools/batch-execute@^7.0.0":
   "integrity" "sha512-+ywPfK6N2Ddna6oOa5Qb1Mv7EA8LOwRNOAPP9dL37FEhksJM9pYqPSceUcqMqg7S9b0+Cgr78s408rgvurV3/Q=="
